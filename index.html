@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up form</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
-        <div>
-            <p>Simple Logo</p>
+        <div class="background-pic">
+            <img src="/halie-west-25xggax4bSA-unsplash.jpg"  height="1000">
         </div>
         <div>
             <p>Photo by unsplash</p>
@@ -20,13 +21,34 @@
             <p>You <i>know</i> you want to.</p>
         </div>
         <form action="" method="get">
-            <legend>Let's do this!</legend>
+            
             <fieldset>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name" />
-                <label for="last-name">LAST NAME</label>
-                <input />
+                <p>Let's do this!</p>
+                <div class="names">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name" />
+                    <label for="last-name">LAST NAME</label>
+                    <input />
+                </div>
+                <div class="email&num">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" />
+                    <label for="telnum">PHONE NUMBER</label>
+                    <input type="tel" id="telnum" name="telnum" />
+                </div>
+                <div class="pass-">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" />
+                    <label for="confirmpass">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmpass" name="confirmpass" />
+                </div>
             </fieldset>
+            <div>
+                <button type="submit">Create Account</button>
+            </div>
+            <div>
+                <p>Already have an account? <a href="##">Log in</a></p>
+            </div>
         </form>
     </section>
     
